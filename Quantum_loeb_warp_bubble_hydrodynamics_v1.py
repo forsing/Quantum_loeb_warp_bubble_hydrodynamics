@@ -15,9 +15,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -289,17 +289,17 @@ Posebnost: Alcubierre zid mehura + zona stagnacije + lucni udarni talas na Qiski
 CSV: loto7_4718_k90.csv
 Validacija NLL (wall_sigma=5.0, stag_gain=0.45): 25.8488
 Test NLL: 25.8616
-NEXT: [3, 4, 5, 6, 7, 8, 38]
+NEXT: [3, x, 5, y, 7, z, 38]
 
 CSV: loto7_4718_k90_loto_2981.csv
 Validacija NLL (wall_sigma=5.0, stag_gain=0.45): 25.8374
 Test NLL: 25.8714
-NEXT: [6, 7, 30, 32, 33, 34, 35]
+NEXT: [6, x, 30, y, 33, z, 35]
 
 CSV: loto7_4718_k90_loto_plus_1737.csv
 Validacija NLL (wall_sigma=5.0, stag_gain=0.45): 25.8813
 Test NLL: 25.7937
-NEXT: [1, 5, 6, 7, 8, 10, 11]
+NEXT: [1, x, 6, y, 8, z, 11]
 """
 
 
